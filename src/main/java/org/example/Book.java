@@ -45,7 +45,7 @@ public class Book {
     }
 
     void TypeOfBook(){
-        System.out.println("general book");
+        System.out.println("general Book");
     }
 
     @Override

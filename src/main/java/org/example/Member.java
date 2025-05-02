@@ -31,7 +31,7 @@ public class Member {
     }
 
     public void returnBook(String bookTitle, LibraryItem library) {
-        library.returnBook(bookTitle);
+        library.returnBook(bookTitle,this);
     }
 
 }
